@@ -6,4 +6,8 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    l=[]
+    for i in range(5):
+        l.append(i)
+    return l
+print(main(5))

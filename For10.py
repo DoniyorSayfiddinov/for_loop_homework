@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    l=[]
+    for i in list1:
+        l.append(i[0].upper()+i[1::])
+
+    return l
+print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
+ 

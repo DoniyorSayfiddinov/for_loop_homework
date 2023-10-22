@@ -6,4 +6,11 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    l=''
+    for i in range(3):
+        if i==2:
+            l+=(str(int(i)))
+        else :
+            l+=(str(int(i)))+','
+    return l
+print(main(3))
